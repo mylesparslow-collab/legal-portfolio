@@ -30,7 +30,7 @@
   <div class="wrap">
     <p class="eyebrow">AI Gameplan · Discussion draft</p>
     <h1>AI for a mid-sized California law firm</h1>
-    <p class="lede">A practical, phased plan for bringing AI into a full-service firm of about 200 lawyers with offices across California. It covers where AI helps each practice, the policy and training that make it safe, how to vet vendors, and which tools to adopt or build, in four phases over about two years.</p>
+    <p class="lede">A practical, phased plan for bringing AI into a full-service firm of about 200 lawyers with offices across California. It covers where AI helps each practice, the policy and training that make it safe, how to vet vendors, and which tools to adopt or build, in four phases over about two years, and ends with the long-term goal: one in-house platform that connects every file, matter and system.</p>
     <div class="figures" role="list">
       <div role="listitem"><b>9</b><span>practice areas mapped to first uses</span></div>
       <div role="listitem"><b>4</b><span>phases, from policy to client offerings</span></div>
@@ -60,6 +60,7 @@
       <li><a href="#measure">Measuring success</a></li>
       <li><a href="#risks">Risks and responses</a></li>
       <li><a href="#first90">The first 90 days</a></li>
+      <li><a href="#platform">The long-term goal: one firm platform</a></li>
       <li><a href="#sources">Sources</a></li>
     </ol>
   </div>
@@ -384,9 +385,80 @@
   </div>
 </section>
 
+<section class="block" id="platform">
+  <div class="wrap narrow doc">
+    <p class="eyebrow">14 · Long-term goal</p>
+    <h2>The long-term goal: one firm platform</h2>
+    <p>The phases above add AI one workflow at a time. The long-term goal is to bring those workflows together into a single in-house platform. It would connect every file, matter and system the firm uses, run under the firm's own control, and give every lawyer and staff member the same capabilities with the same safeguards.</p>
+    <div class="callout">
+      <p><b>The goal in one sentence.</b> One firm-owned layer that can read, search and act across documents, email, matters, conflicts, time, billing and docketing, with the firm's own permissions, walls and audit trail applied everywhere, and with models the firm chooses and can run on its own hardware.</p>
+    </div>
+
+    <h3>Why own it</h3>
+    <ul>
+      <li><b>Control of client data.</b> Data stays in systems the firm runs or contracts for directly, under one set of rules, instead of spreading across a separate AI feature in every product.</li>
+      <li><b>Functionality across systems.</b> A question like "what do we know about this company?" can draw on the conflicts database, the document system, billing history and email at once, which is hard to do inside any one vendor's product.</li>
+      <li><b>Built for this firm.</b> Practice checklists, outside counsel guidelines, house style and the firm's own precedents become part of the tools.</li>
+      <li><b>Freedom to change models.</b> Because the platform sits between the firm and the models, the firm can switch providers, or move sensitive work to private models, without rebuilding its workflows.</li>
+      <li><b>One governance model.</b> Policy, data tiers, logging and review are enforced once, in the platform, rather than configured separately in each product.</li>
+    </ul>
+
+    <h3>What it would include</h3>
+    <div class="tbl-wrap">
+      <table class="tbl stack">
+        <thead><tr><th>Layer</th><th>What it does</th></tr></thead>
+        <tbody>
+          <tr><td>Connectors</td><td data-label="What it does">Read and, where approved, write to the document management system, email, the conflicts and intake system, time and billing, docketing, the CRM and the intranet, through each system's supported interfaces.</td></tr>
+          <tr><td>One firm index</td><td data-label="What it does">A secure, searchable index of documents and records, kept current as systems change, tagged by client, matter and data tier.</td></tr>
+          <tr><td>Permissions and walls</td><td data-label="What it does">Every request runs as the person asking, so the platform only sees what that person may see in the source systems, and ethical walls apply to search, answers and summaries alike.</td></tr>
+          <tr><td>Model gateway</td><td data-label="What it does">Routes each task to an approved model by data tier: private models on firm hardware for restricted data, and vetted enterprise models for the rest, with cost and usage tracked.</td></tr>
+          <tr><td>Verification</td><td data-label="What it does">Shared checks every tool uses: quotations matched to sources, citations checked against real opinions, dates and totals computed in code.</td></tr>
+          <tr><td>Workflow tools</td><td data-label="What it does">The practice and operations tools from the earlier phases (conflicts party lists, prebill checks, time drafts, lease and BAA reviews, deposition outlines, matter questions), all built on the same layers.</td></tr>
+          <tr><td>Audit and oversight</td><td data-label="What it does">A tamper-evident log of who asked what, which sources were used, which model answered and who approved the result, with reports for the AI committee.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>What does not change</h3>
+    <ul>
+      <li>The existing document, billing, conflicts and docketing systems stay the systems of record. The platform connects to them; it does not replace them.</li>
+      <li>Lawyers still decide. The platform drafts, finds and checks, and every filing, clearance, entry and client communication is approved by a person.</li>
+      <li>Buying stays an option for each layer. Where a vendor product meets the vetting checklist and fits the platform, the firm can adopt it instead of building.</li>
+    </ul>
+
+    <h3>How to get there</h3>
+    <ol class="phases">
+      <li>
+        <p class="when">Years 1 to 2 · During phases 2 to 4</p>
+        <h3>Build the workflows on shared parts</h3>
+        <p>Each workflow from the phased plan uses the same permission checks, verification and logging, so that the pieces of the platform already exist when the tools are joined up.</p>
+      </li>
+      <li>
+        <p class="when">Years 2 to 3</p>
+        <h3>Connect the core systems</h3>
+        <p>Build the firm index and connectors for the document system and the conflicts and matter data first, then time, billing and email. Add the model gateway and private models for restricted data.</p>
+      </li>
+      <li>
+        <p class="when">Year 3 and beyond</p>
+        <h3>One front door</h3>
+        <p>Give everyone a single place to ask questions about a matter, run any approved workflow and see results with sources, inside the tools they already use, such as Outlook, Word and the document system.</p>
+      </li>
+    </ol>
+
+    <h3>What it takes</h3>
+    <ul>
+      <li><b>A small permanent team</b> from IT, knowledge management and practice support, with outside help for security reviews.</li>
+      <li><b>Infrastructure</b> for the index and private models, on firm hardware or a private cloud tenancy the firm controls.</li>
+      <li><b>Vendor cooperation,</b> since connectors depend on each system's supported interfaces and contract terms.</li>
+      <li><b>Security from the start,</b> including penetration testing, access reviews and an incident plan before any connector goes live.</li>
+      <li><b>A decision gate at each stage,</b> so the committee builds the next layer only when the last one has shown measured value.</li>
+    </ul>
+  </div>
+</section>
+
 <section class="block" id="sources">
   <div class="wrap narrow doc">
-    <p class="eyebrow">14 · References</p>
+    <p class="eyebrow">15 · References</p>
     <h2>Sources</h2>
     <ol class="sources">
       <li id="s1">State Bar of California, Standing Committee on Professional Responsibility and Conduct, <a href="https://www.calbar.ca.gov/Portals/0/documents/ethics/Generative-AI-Practical-Guidance.pdf">Practical Guidance for the Use of Generative Artificial Intelligence in the Practice of Law</a> (November 2023).</li>
