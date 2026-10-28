@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AI Gameplan · Mid-Sized Firm</title>
-<meta name="description" content="A phased plan for AI adoption at a mid-sized California law firm: policy, training, confidentiality and ethics, vendor vetting, and practice-specific tools.">
+<meta name="description" content="One perspective on AI at a mid-sized California law firm: observations, ideas worth exploring and open questions on policy, training, confidentiality, vendors and practice-specific tools.">
 <meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,13 +28,13 @@
 
 <section class="hero">
   <div class="wrap">
-    <p class="eyebrow">AI Gameplan · Discussion draft</p>
-    <h1>AI for a mid-sized California law firm</h1>
-    <p class="lede">A practical, phased plan for bringing AI into a full-service firm of about 200 lawyers with offices across California. It covers where AI helps each practice, the policy and training that make it safe, how to vet vendors, and which tools to adopt or build, in four phases over about two years, and ends with the long-term goal: one in-house platform that connects every file, matter and system.</p>
+    <p class="eyebrow">AI Gameplan · A perspective for discussion</p>
+    <h1>Thoughts on AI for a mid-sized California law firm</h1>
+    <p class="lede">My perspective on where AI could help a full-service firm of about 200 lawyers with offices across California, drawn from building and testing legal tools. It sets out what I have observed, the ideas I think are worth exploring, one possible way to sequence them, and the questions I would want answered first. Leadership knows the firm far better than I do, so this is meant to start a conversation rather than settle one.</p>
     <div class="figures" role="list">
-      <div role="listitem"><b>9</b><span>practice areas mapped to first uses</span></div>
-      <div role="listitem"><b>4</b><span>phases, from policy to client offerings</span></div>
-      <div role="listitem"><b>90 days</b><span>to approved tools and trained pilot groups</span></div>
+      <div role="listitem"><b>9</b><span>practice areas with ideas worth exploring</span></div>
+      <div role="listitem"><b>15</b><span>working prototypes in this portfolio to look at</span></div>
+      <div role="listitem"><b>8</b><span>open questions for leadership</span></div>
       <div role="listitem"><b>7</b><span>cited sources on California and ABA rules</span></div>
     </div>
   </div>
@@ -43,24 +43,25 @@
 <section class="block">
   <div class="wrap narrow doc">
     <div class="callout">
-      <p><b>About this plan.</b> The firm profile is drawn from public descriptions of a real California firm, which is not named. Nothing here assumes anything about that firm's current tools or policies, and it is a starting point for leadership discussion, not legal or ethics advice. Legal and regulatory statements are cited to the sources listed at the end.</p>
+      <p><b>About this page.</b> These are my own observations and ideas, based on public descriptions of a real California firm, which is not named. I don't know the firm's current tools, policies or plans, and some of this may already be under way or already decided. It is offered as input for discussion, not as a recommendation the firm must follow, and it is not legal or ethics advice. Legal and regulatory statements are cited to the sources listed at the end.</p>
     </div>
     <h2>Contents</h2>
     <ol class="toc-side">
       <li><a href="#profile">The firm and its markets</a></li>
-      <li><a href="#why">Why act now</a></li>
-      <li><a href="#principles">Principles</a></li>
-      <li><a href="#practices">Practice by practice</a></li>
-      <li><a href="#governance">Policy and governance</a></li>
+      <li><a href="#why">Why now is a good moment</a></li>
+      <li><a href="#principles">Principles I would start from</a></li>
+      <li><a href="#practices">Ideas by practice</a></li>
+      <li><a href="#governance">Thoughts on policy and governance</a></li>
       <li><a href="#confidentiality">Confidentiality and ethics</a></li>
-      <li><a href="#training">Training</a></li>
+      <li><a href="#training">Ideas for training</a></li>
       <li><a href="#vendors">Vetting vendors</a></li>
-      <li><a href="#tools">Tools to adopt and build</a></li>
-      <li><a href="#phases">The phased plan</a></li>
-      <li><a href="#measure">Measuring success</a></li>
-      <li><a href="#risks">Risks and responses</a></li>
-      <li><a href="#first90">The first 90 days</a></li>
-      <li><a href="#platform">The long-term goal: one firm platform</a></li>
+      <li><a href="#tools">Tools worth evaluating</a></li>
+      <li><a href="#phases">One possible sequence</a></li>
+      <li><a href="#measure">How success might be measured</a></li>
+      <li><a href="#risks">Risks to plan for</a></li>
+      <li><a href="#first90">Possible first steps</a></li>
+      <li><a href="#platform">A longer-term idea: one firm platform</a></li>
+      <li><a href="#questions">Open questions, and where I can help</a></li>
       <li><a href="#sources">Sources</a></li>
     </ol>
   </div>
@@ -70,36 +71,37 @@
   <div class="wrap narrow doc">
     <p class="eyebrow">1 · Starting point</p>
     <h2>The firm and its markets</h2>
-    <p>The plan is written for a firm with this public profile:</p>
+    <p>These ideas are written with this public profile in mind:</p>
     <ul>
       <li><b>Size and footprint.</b> Roughly 200 lawyers in several offices across Northern, Central and Southern California.</li>
       <li><b>Practices.</b> Public agencies and government, health care and senior care, construction, real estate, labor and employment, litigation, corporate, environment, intellectual property and family wealth planning.</li>
       <li><b>Clients.</b> Public agencies such as transit and water districts, health care and senior living organizations, construction and infrastructure owners, agriculture and mid-market companies, and families with significant wealth.</li>
       <li><b>Values.</b> A visible commitment to pro bono, inclusion and sustainability, including certification as a B Corporation.</li>
     </ul>
-    <p>Three features of this profile shape the plan. Public-agency work means records, transparency and procurement rules apply to the clients, and sometimes to the work product. Health care work means protected health information is routinely in the file. And a statewide footprint means consistent training and tools matter more than in a single-office firm.</p>
+    <p>Three features of this profile shape my thinking. Public-agency work means records, transparency and procurement rules apply to the clients, and sometimes to the work product. Health care work means protected health information is routinely in the file. And a statewide footprint means consistent training and tools matter more than in a single-office firm.</p>
   </div>
 </section>
 
 <section class="block" id="why">
   <div class="wrap narrow doc">
     <p class="eyebrow">2 · Context</p>
-    <h2>Why act now</h2>
-    <p>The question for a mid-sized firm is no longer whether lawyers will use AI, but whether they use approved tools under a clear policy. Four developments make a deliberate plan timely.</p>
+    <h2>Why now is a good moment</h2>
+    <p>As I see it, the question for a mid-sized firm is less whether lawyers will use AI than whether they use approved tools under a clear policy. Four developments make a deliberate approach timely.</p>
     <div class="force">
       <div><h3>Ethics guidance is clear enough to act on</h3><p>The State Bar of California's practical guidance on generative AI and ABA Formal Opinion 512 (July 2024) both map AI use onto existing duties: competence, confidentiality, supervision, communication, candor and reasonable fees.<sup><a href="#s1">1</a>,<a href="#s2">2</a></sup></p></div>
       <div><h3>Courts are raising the stakes</h3><p>In <i>Noland v. Land of the Free</i> (Sept. 2025), the California Court of Appeal sanctioned counsel $10,000 for briefs with AI-fabricated citations and published the opinion as a warning. California's courts were also directed to adopt their own generative AI use policies by December 15, 2025.<sup><a href="#s3">3</a>,<a href="#s4">4</a></sup></p></div>
       <div><h3>Clients are now regulated on AI</h3><p>Employers face FEHA rules on automated decision systems (effective Oct. 1, 2025). Health care providers and plans face AB 3030 and SB 1120 (effective Jan. 1, 2025). Businesses face new CCPA rules on risk assessments (from Jan. 1, 2026) and automated decisionmaking (from Jan. 1, 2027).<sup><a href="#s5">5</a>,<a href="#s6">6</a>,<a href="#s7">7</a></sup></p></div>
-      <div><h3>Clients will ask about the firm's own use</h3><p>Clients who are building their own AI governance can reasonably ask how their outside counsel handles AI and their data. A firm with a written policy, trained lawyers and vetted tools can answer that question well, and can advise on it.</p></div>
+      <div><h3>Clients are likely to ask about the firm's own use</h3><p>Clients who are building their own AI governance can reasonably ask how their outside counsel handles AI and their data. A firm with a written policy, trained lawyers and vetted tools can answer that question well, and can advise on it.</p></div>
     </div>
-    <p>The third point is also a business opportunity: each of the firm's core client groups now has its own AI compliance questions, and the firm's lawyers already know those clients and regulators.</p>
+    <p>The third point may also be a business opportunity: each of the firm's core client groups now has its own AI compliance questions, and the firm's lawyers already know those clients and regulators.</p>
   </div>
 </section>
 
 <section class="block" id="principles">
   <div class="wrap narrow doc">
     <p class="eyebrow">3 · Ground rules</p>
-    <h2>Principles</h2>
+    <h2>Principles I would start from</h2>
+    <p>Whatever the firm decides to do, these are the ground rules I have found matter most when building legal tools.</p>
     <ol>
       <li><b>Lawyers stay responsible.</b> AI output is a starting point that a lawyer reviews; professional judgment is never delegated to a tool, as the State Bar guidance puts it.<sup><a href="#s1">1</a></sup></li>
       <li><b>Client data goes only where the policy allows.</b> Confidential information goes only into tools the firm has approved for that level of data.</li>
@@ -114,12 +116,12 @@
   <div class="wrap doc">
     <div class="narrow">
       <p class="eyebrow">4 · Where AI helps first</p>
-      <h2>Practice by practice</h2>
-      <p>The best first uses are high-volume reading and first drafts that a lawyer already reviews. Each practice also has a guardrail specific to its clients, and many have an advisory opportunity.</p>
+      <h2>Ideas by practice</h2>
+      <p>In my experience the most promising first uses are high-volume reading and first drafts that a lawyer already reviews. These are ideas to test with each practice group, which will know better than I do where the real bottlenecks are. Each also has a guardrail specific to its clients, and many suggest an advisory opportunity.</p>
     </div>
     <div class="tbl-wrap">
       <table class="tbl stack">
-        <thead><tr><th>Practice</th><th>First uses</th><th>Guardrail</th><th>Advisory opportunity</th></tr></thead>
+        <thead><tr><th>Practice</th><th>Possible first uses</th><th>Guardrail</th><th>Possible advisory opportunity</th></tr></thead>
         <tbody>
           <tr><td>Public agencies</td><td data-label="First uses">Summaries of board packets and staff reports; first drafts of resolutions and policy redlines; comparison of procurement bids against requirements; triage of public records requests.</td><td data-label="Guardrail">Agree with each agency client how AI prompts and outputs on its work are retained, since records and transparency rules may reach them.</td><td data-label="Advisory opportunity">AI use policies, procurement terms and public-records handling for agencies adopting AI.</td></tr>
           <tr><td>Health care and senior care</td><td data-label="First uses">BAA and vendor contract review against a playbook; summaries of survey findings and regulatory changes; first drafts of policies.</td><td data-label="Guardrail">Protected health information only in tools covered by a business associate agreement, or not at all.</td><td data-label="Advisory opportunity">AB 3030 disclosures, SB 1120 utilization review, and AI vendor contracting for providers and senior living operators.</td></tr>
@@ -139,12 +141,12 @@
 <section class="block" id="governance">
   <div class="wrap narrow doc">
     <p class="eyebrow">5 · Governance</p>
-    <h2>Policy and governance</h2>
-    <p>The State Bar guidance calls on managing lawyers to set clear policies on permissible use and to train lawyers and staff.<sup><a href="#s1">1</a></sup> A workable structure for a firm this size:</p>
+    <h2>Thoughts on policy and governance</h2>
+    <p>The State Bar guidance calls on managing lawyers to set clear policies on permissible use and to train lawyers and staff.<sup><a href="#s1">1</a></sup> The firm may already have this in hand. If not, one structure that could work for a firm this size:</p>
     <h3>An AI committee</h3>
-    <p>A small standing group: the general counsel or ethics partner (chair), the chief information or technology officer, the knowledge management lead, the director of finance or billing, two or three practice group representatives from different offices, and a paralegal or staff representative. It approves tools, owns the policy, picks pilots and reports to firm leadership each quarter.</p>
+    <p>A small standing group, for example: the general counsel or ethics partner (chair), the chief information or technology officer, the knowledge management lead, the director of finance or billing, two or three practice group representatives from different offices, and a paralegal or staff representative. It could approve tools, own the policy, pick pilots and report to firm leadership each quarter.</p>
     <h3>The AI use policy</h3>
-    <p>Short, written in plain language, and reviewed every six months. It should cover:</p>
+    <p>Ideally short, written in plain language, and reviewed every six months. Topics I would expect it to cover:</p>
     <ul>
       <li><b>Approved tools,</b> each with the highest data level it may receive (see the data tiers below).</li>
       <li><b>Prohibited uses,</b> such as entering client information into consumer AI accounts, or using AI to make a final decision on conflicts, hiring or a client's legal position.</li>
@@ -161,7 +163,7 @@
   <div class="wrap narrow doc">
     <p class="eyebrow">6 · Protecting clients</p>
     <h2>Confidentiality and ethics</h2>
-    <p>The State Bar guidance warns against entering confidential information into any tool that lacks adequate confidentiality and security protections, and says to check whether a provider uses inputs to train its models or shares them.<sup><a href="#s1">1</a></sup> A tiered approach turns that into an everyday rule:</p>
+    <p>The State Bar guidance warns against entering confidential information into any tool that lacks adequate confidentiality and security protections, and says to check whether a provider uses inputs to train its models or shares them.<sup><a href="#s1">1</a></sup> One way to turn that into an everyday rule is a set of data tiers:</p>
     <div class="tbl-wrap">
       <table class="tbl stack">
         <thead><tr><th>Data tier</th><th>Examples</th><th>Where it may go</th></tr></thead>
@@ -173,7 +175,7 @@
         </tbody>
       </table>
     </div>
-    <h3>Further safeguards</h3>
+    <h3>Other safeguards worth considering</h3>
     <ul>
       <li><b>Ethical walls apply to AI.</b> A tool that searches across matters must respect the same walls as the document system, so a screened lawyer cannot reach walled material through an AI search.</li>
       <li><b>Anonymize where possible.</b> Remove names and identifying details when the task does not need them.</li>
@@ -186,8 +188,8 @@
 <section class="block" id="training">
   <div class="wrap narrow doc">
     <p class="eyebrow">7 · People</p>
-    <h2>Training</h2>
-    <p>Training should be short, practical and tied to the policy, and it should count toward the competence duty.</p>
+    <h2>Ideas for training</h2>
+    <p>The training that seems to work best is short, practical and tied to the policy, and it can count toward the competence duty. A possible shape:</p>
     <div class="tbl-wrap">
       <table class="tbl stack">
         <thead><tr><th>Audience</th><th>Content</th><th>Format</th></tr></thead>
@@ -200,7 +202,7 @@
         </tbody>
       </table>
     </div>
-    <p>A shared prompt and checklist library, owned by knowledge management and organized by practice, keeps good methods from staying in one lawyer's head.</p>
+    <p>A shared prompt and checklist library, organized by practice, would help keep good methods from staying in one lawyer's head.</p>
   </div>
 </section>
 
@@ -208,7 +210,7 @@
   <div class="wrap narrow doc">
     <p class="eyebrow">8 · Buying well</p>
     <h2>Vetting vendors</h2>
-    <p>The same checklist applies to a new legal AI product and to AI features added to tools the firm already uses.</p>
+    <p>These are the questions I would want answered in writing, both for a new legal AI product and for AI features added to tools the firm already uses.</p>
     <div class="tbl-wrap">
       <table class="tbl stack">
         <thead><tr><th>Area</th><th>Questions to answer in writing</th></tr></thead>
@@ -230,9 +232,9 @@
 <section class="block" id="tools">
   <div class="wrap narrow doc">
     <p class="eyebrow">9 · The toolkit</p>
-    <h2>Tools to adopt and build</h2>
-    <p>Most capability should come from established products. A small number of firm-specific workflows are worth building, because they encode how this firm works and sit on top of systems it already has.</p>
-    <h3>Adopt</h3>
+    <h2>Tools worth evaluating</h2>
+    <p>My view is that most capability should come from established products, and that a small number of firm-specific workflows may be worth building, because they encode how the firm works and sit on top of systems it already has.</p>
+    <h3>Products to evaluate</h3>
     <ul>
       <li><b>A secure general assistant</b> for drafting, summarizing and research support, licensed under an enterprise agreement with no training on firm data. Candidates include the enterprise editions of Claude, ChatGPT and Microsoft 365 Copilot; the right choice depends on the firm's existing Microsoft environment and the vetting above.</li>
       <li><b>AI features in the firm's legal research service,</b> because answers are grounded in the service's own citator and content.</li>
@@ -240,8 +242,8 @@
       <li><b>AI search in the document management system,</b> where it respects existing permissions and walls.</li>
       <li><b>Transcription and meeting summaries</b> for internal meetings, with participants' consent and the same data rules.</li>
     </ul>
-    <h3>Build or configure</h3>
-    <p>Small tools that check the model with code and leave every decision to a person. Working prototypes of each are in this portfolio.</p>
+    <h3>Workflows that might be worth building</h3>
+    <p>Small tools that check the model with code and leave every decision to a person. I have built a working prototype of each, in this portfolio, so the ideas can be tried rather than imagined.</p>
     <div class="tbl-wrap">
       <table class="tbl stack">
         <thead><tr><th>Workflow</th><th>What it does</th><th>Prototype</th></tr></thead>
@@ -264,7 +266,8 @@
 <section class="block" id="phases">
   <div class="wrap narrow doc">
     <p class="eyebrow">10 · Sequence</p>
-    <h2>The phased plan</h2>
+    <h2>One possible sequence</h2>
+    <p>If it helps to picture how the pieces could fit together, this is one way to sequence them. The timing and order would depend on what the firm already has in place and on leadership's priorities.</p>
     <ol class="phases">
       <li>
         <p class="when">Phase 0 · Month 1</p>
@@ -283,7 +286,7 @@
         <ul>
           <li>Roll out the approved assistant to a pilot group of 30 to 50 lawyers and staff across practices and offices.</li>
           <li>Run all-hands and lawyer ethics training, and start the prompt library.</li>
-          <li>Make the citation and quotation check mandatory for filings.</li>
+          <li>Require the citation and quotation check for filings.</li>
           <li>Record baselines for the tasks to be piloted next.</li>
         </ul>
         <p class="exit">Done when: pilot users are active weekly, with no data incidents, and the policy is final.</p>
@@ -326,7 +329,7 @@
 <section class="block" id="measure">
   <div class="wrap narrow doc">
     <p class="eyebrow">11 · Results</p>
-    <h2>Measuring success</h2>
+    <h2>How success might be measured</h2>
     <div class="tbl-wrap">
       <table class="tbl stack">
         <thead><tr><th>Measure</th><th>How</th></tr></thead>
@@ -348,14 +351,14 @@
 <section class="block" id="risks">
   <div class="wrap narrow doc">
     <p class="eyebrow">12 · Risks</p>
-    <h2>Risks and responses</h2>
+    <h2>Risks to plan for</h2>
     <div class="tbl-wrap">
       <table class="tbl stack">
-        <thead><tr><th>Risk</th><th>Response</th></tr></thead>
+        <thead><tr><th>Risk</th><th>A possible response</th></tr></thead>
         <tbody>
-          <tr><td>Invented citations or quotations</td><td data-label="Response">Mandatory citation and quotation check, then the citator, and training on how errors look.</td></tr>
+          <tr><td>Invented citations or quotations</td><td data-label="Response">A required citation and quotation check, then the citator, and training on how errors look.</td></tr>
           <tr><td>Confidential data exposure</td><td data-label="Response">Data tiers, approved tools only, single sign-on and logs, and a no-blame incident process.</td></tr>
-          <tr><td>Unapproved tools</td><td data-label="Response">Give people a good approved tool early; most unapproved use comes from having none.</td></tr>
+          <tr><td>Unapproved tools</td><td data-label="Response">Give people a good approved tool early; in my experience most unapproved use comes from having none.</td></tr>
           <tr><td>Billing disputes</td><td data-label="Response">A clear billing rule and engagement-letter language, and alternative fees where AI makes work predictable.</td></tr>
           <tr><td>Bias in decisions about people</td><td data-label="Response">No AI decisions on hiring or intake screening without testing and human review.</td></tr>
           <tr><td>Vendor dependence</td><td data-label="Response">Contracts with data export and model-change notice, and workflows that can switch models.</td></tr>
@@ -370,31 +373,32 @@
 <section class="block" id="first90">
   <div class="wrap narrow doc">
     <p class="eyebrow">13 · Getting started</p>
-    <h2>The first 90 days</h2>
+    <h2>Possible first steps</h2>
+    <p>If leadership wanted to move, these are the early steps I would suggest considering, roughly in this order:</p>
     <ol>
-      <li>Leadership names the AI committee and its chair.</li>
-      <li>The committee publishes the interim policy and data tiers.</li>
-      <li>Knowledge management runs the no-penalty survey of current use.</li>
-      <li>IT and the committee vet two or three general assistants against the checklist.</li>
-      <li>One assistant is licensed for a pilot group across practices and offices.</li>
-      <li>Everyone completes the 45-minute policy session; lawyers complete the ethics session.</li>
-      <li>The citation and quotation check becomes required for filings.</li>
-      <li>Practice champions record baselines for the Phase 2 pilots.</li>
-      <li>The committee picks the Phase 2 pilots and reports to leadership.</li>
+      <li>Decide who owns AI decisions, whether a committee or an existing group.</li>
+      <li>Publish an interim policy and data tiers.</li>
+      <li>Run a no-penalty survey of the AI tools people already use.</li>
+      <li>Vet two or three general assistants against the vendor questions.</li>
+      <li>License one for a pilot group across practices and offices.</li>
+      <li>Hold a short policy session for everyone and an ethics session for lawyers.</li>
+      <li>Require the citation and quotation check for filings.</li>
+      <li>Record baselines for a few workflow pilots.</li>
+      <li>Choose the pilots and report back to leadership.</li>
     </ol>
   </div>
 </section>
 
 <section class="block" id="platform">
   <div class="wrap narrow doc">
-    <p class="eyebrow">14 · Long-term goal</p>
-    <h2>The long-term goal: one firm platform</h2>
-    <p>The phases above add AI one workflow at a time. The long-term goal is to bring those workflows together into a single in-house platform. It would connect every file, matter and system the firm uses, run under the firm's own control, and give every lawyer and staff member the same capabilities with the same safeguards.</p>
+    <p class="eyebrow">14 · A longer-term idea</p>
+    <h2>A longer-term idea: one firm platform</h2>
+    <p>The ideas above add AI one workflow at a time. Looking further ahead, I think there is a strong case for eventually bringing those workflows together into a single in-house platform. It would connect every file, matter and system the firm uses, run under the firm's own control, and give every lawyer and staff member the same capabilities with the same safeguards. This is a direction to weigh, not a commitment to make now.</p>
     <div class="callout">
-      <p><b>The goal in one sentence.</b> One firm-owned layer that can read, search and act across documents, email, matters, conflicts, time, billing and docketing, with the firm's own permissions, walls and audit trail applied everywhere, and with models the firm chooses and can run on its own hardware.</p>
+      <p><b>The idea in one sentence.</b> One firm-owned layer that can read, search and act across documents, email, matters, conflicts, time, billing and docketing, with the firm's own permissions, walls and audit trail applied everywhere, and with models the firm chooses and can run on its own hardware.</p>
     </div>
 
-    <h3>Why own it</h3>
+    <h3>Why it could be worth owning</h3>
     <ul>
       <li><b>Control of client data.</b> Data stays in systems the firm runs or contracts for directly, under one set of rules, instead of spreading across a separate AI feature in every product.</li>
       <li><b>Functionality across systems.</b> A question like "what do we know about this company?" can draw on the conflicts database, the document system, billing history and email at once, which is hard to do inside any one vendor's product.</li>
@@ -426,7 +430,7 @@
       <li>Buying stays an option for each layer. Where a vendor product meets the vetting checklist and fits the platform, the firm can adopt it instead of building.</li>
     </ul>
 
-    <h3>How to get there</h3>
+    <h3>How it could come together</h3>
     <ol class="phases">
       <li>
         <p class="when">Years 1 to 2 · During phases 2 to 4</p>
@@ -445,20 +449,44 @@
       </li>
     </ol>
 
-    <h3>What it takes</h3>
+    <h3>What it would take</h3>
     <ul>
       <li><b>A small permanent team</b> from IT, knowledge management and practice support, with outside help for security reviews.</li>
       <li><b>Infrastructure</b> for the index and private models, on firm hardware or a private cloud tenancy the firm controls.</li>
       <li><b>Vendor cooperation,</b> since connectors depend on each system's supported interfaces and contract terms.</li>
       <li><b>Security from the start,</b> including penetration testing, access reviews and an incident plan before any connector goes live.</li>
-      <li><b>A decision gate at each stage,</b> so the committee builds the next layer only when the last one has shown measured value.</li>
+      <li><b>A decision gate at each stage,</b> so the next layer is built only when the last one has shown measured value.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="block" id="questions">
+  <div class="wrap narrow doc">
+    <p class="eyebrow">15 · Open questions</p>
+    <h2>Open questions, and where I can help</h2>
+    <p>There is a lot I can't see from outside the firm's leadership. These are the questions I would want answered before anything above is taken further:</p>
+    <ol>
+      <li>What AI guidance or tools does the firm already have, and how is it going?</li>
+      <li>Which practice groups feel the most pressure on time, write-offs or response deadlines?</li>
+      <li>What are clients asking about AI, in RFPs, outside counsel guidelines or conversations?</li>
+      <li>Which systems would the firm never want an AI tool to touch, and why?</li>
+      <li>How much appetite is there for building in-house, compared with buying?</li>
+      <li>Who would leadership want to own AI decisions?</li>
+      <li>How should success be judged in the first year: time saved, risk reduced, client value, or something else?</li>
+      <li>Are there client or regulatory constraints, such as public-agency or health care terms, that rule options in or out?</li>
+    </ol>
+    <h3>What I can bring to the conversation</h3>
+    <ul>
+      <li><b>Working prototypes.</b> Each tool idea above has a demo in this portfolio that can be opened and tried, which makes it easier to judge an idea on what it does rather than how it sounds.</li>
+      <li><b>Testing against real outcomes.</b> I build tools to be measured against real results before anyone relies on them, and I'm glad to help set up a fair test of any tool the firm is considering.</li>
+      <li><b>Plain-language explanation.</b> I'm happy to walk anyone through how these tools work, where they fail, and what safeguards they need.</li>
     </ul>
   </div>
 </section>
 
 <section class="block" id="sources">
   <div class="wrap narrow doc">
-    <p class="eyebrow">15 · References</p>
+    <p class="eyebrow">16 · References</p>
     <h2>Sources</h2>
     <ol class="sources">
       <li id="s1">State Bar of California, Standing Committee on Professional Responsibility and Conduct, <a href="https://www.calbar.ca.gov/Portals/0/documents/ethics/Generative-AI-Practical-Guidance.pdf">Practical Guidance for the Use of Generative Artificial Intelligence in the Practice of Law</a> (November 2023).</li>
@@ -477,8 +505,8 @@
 
 <footer class="foot">
   <div class="wrap">
-    <p>Myles Parslow · AI Gameplan · Discussion draft, October 2026</p>
-    <p>This plan is a starting point for discussion and is not legal or ethics advice. Product names are examples to evaluate, not endorsements.</p>
+    <p>Myles Parslow · AI Gameplan · A perspective for discussion, October 2026</p>
+    <p>These are my own views, offered as a starting point for discussion, and are not legal or ethics advice. Product names are examples to evaluate, not endorsements.</p>
   </div>
 </footer>
 
