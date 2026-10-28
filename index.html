@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Myles Parslow · Legal Technology</title>
+<meta name="description" content="Software and AI workflows for law firms by Myles Parslow: conflicts and intake, litigation, transactions, billing and firm strategy. Every demo uses fictional data.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="legal.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./">Myles Parslow <span>Legal technology</span></a>
+    <nav aria-label="Sections">
+      <a href="#conflion">Conflion</a>
+      <a href="#work" class="hide-sm">All work</a>
+      <a href="#approach" class="hide-sm">Approach</a>
+      <a href="ai-gameplan/">AI Gameplan</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Portfolio · Legal and law-firm work</p>
+    <h1>Software and AI workflows for how law firms actually work.</h1>
+    <p class="lede">Conflicts and intake, litigation, transactions, billing and firm strategy. Each project below is a working tool with a demo you can open, and each is built on the same rule: the software reads, checks and drafts, and a lawyer decides.</p>
+    <div class="figures" role="list">
+      <div role="listitem"><b>15</b><span>legal tools and workflows</span></div>
+      <div role="listitem"><b>2,194</b><span>passing automated tests in Conflion</span></div>
+      <div role="listitem"><b>3,000,000</b><span>synthetic parties in Conflion's search benchmark</span></div>
+      <div role="listitem"><b>357 of 358</b><span>quotations verified word for word in a blind test on 26 federal cases</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Design principles</p>
+      <h2>Four rules every tool follows</h2>
+    </div>
+    <div class="principles">
+      <div><h3>Lawyers decide</h3><p>AI suggestions are marked as suggestions until a person confirms them. No tool clears a conflict, files a brief or posts time on its own.</p></div>
+      <div><h3>Code checks the model</h3><p>Quotations are matched word for word against the source, and deadlines, totals and redlines are computed in code, not by the model.</p></div>
+      <div><h3>Client data stays protected</h3><p>Local models on the firm's own hardware where data is sensitive, an approval screen before anything is sent, and ethical walls enforced in the data.</p></div>
+      <div><h3>Everything is traceable</h3><p>Every finding links to the sentence it rests on, and every decision is written to an audit trail.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="index">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Contents</p>
+      <h2>The work, by area of the firm</h2>
+      <p>All clients, matters and people in the demos and screenshots are invented.</p>
+    </div>
+    <div class="toc">
+      <div>
+        <h4>Conflicts and intake</h4>
+        <a href="#conflion">Conflion <small>conflicts and new-matter intake</small></a>
+        <a href="#partyfinder">Party Finder <small>names to search</small></a>
+        <a href="#vigilmark">VigilMark <small>trademark watch</small></a>
+        <h4>Litigation</h4>
+        <a href="#winyourcase">Win your case ASAP <small>early case assessment</small></a>
+        <a href="#testimonycheck">Testimony Check <small>deposition prep</small></a>
+        <a href="#citationgate">Citation Gate <small>brief checking</small></a>
+      </div>
+      <div>
+        <h4>Transactions and practice groups</h4>
+        <a href="#matterdesk">Matter Desk <small>five practice workflows</small></a>
+        <a href="#synthesis">Synthesis <small>M&amp;A workbench</small></a>
+        <a href="#skippy">Skippy <small>cited legal assistant</small></a>
+        <h4>Billing and time</h4>
+        <a href="#guidelineguard">Guideline Guard <small>outside counsel guidelines</small></a>
+        <a href="#hourcatch">Hour Catch <small>time capture</small></a>
+      </div>
+      <div>
+        <h4>Firm strategy and knowledge</h4>
+        <a href="#praxis">Praxis <small>AI strategy studio</small></a>
+        <a href="#lexatlas">LexAtlas <small>relationship graph</small></a>
+        <a href="#casewins">Case Wins Debrief <small>lessons from wins</small></a>
+        <a href="#marketingstudio">Marketing Studio <small>bios, alerts, RFPs</small></a>
+        <h4>For leadership</h4>
+        <a href="ai-gameplan/">AI Gameplan <small>for a mid-sized California firm</small></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Flagship -->
+<section class="block" id="conflion">
+  <div class="wrap">
+    <div class="feature">
+      <p class="eyebrow">Flagship · Conflicts and new-matter intake</p>
+      <h2>Conflion</h2>
+      <p class="sub">A conflicts-check and new-matter intake system for US law firms of 10 to 150 lawyers. It finds the matches a letter-for-letter billing-system search misses, routes each request to the right approvers, and keeps an audit trail that proves itself.</p>
+      <div class="stats">
+        <span><b>7</b> firm roles, each with its own view</span>
+        <span><b>9</b> approval routing rules</span>
+        <span><b>2,194</b> passing tests in 155 files</span>
+        <span><b>3,000,000</b> synthetic parties benchmarked</span>
+      </div>
+      <div class="gallery">
+        <figure>
+          <button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/conflion-hits.jpg" alt="Conflion hit review screen showing an adverse party group with plain-English explanations" loading="lazy" width="1920" height="1200"></button>
+          <figcaption>Hit review. Each hit says what it means in plain English, cites the rule, suggests a decision and shows the matters behind it. The AI note is marked as advisory.</figcaption>
+        </figure>
+        <div class="stack">
+          <figure>
+            <button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/conflion-search.jpg" alt="Search results finding an alias and a related company" loading="lazy" width="1920" height="1200"></button>
+            <figcaption>"Kate Okafor" finds the alias "Katherine A. Okafor" and, one hop out, a company where she is an officer.</figcaption>
+          </figure>
+          <figure>
+            <button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/conflion-walls.jpg" alt="Ethical walls screen with screened people and acknowledgments" loading="lazy" width="1920" height="1200"></button>
+            <figcaption>Ethical walls: who is screened, who still owes an acknowledgment, and a deny list for the document system.</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="cols">
+        <div>
+          <h3>The problem</h3>
+          <p>Before a firm takes a matter it must check every party against everyone it has represented or opposed. Mid-size firms often search their billing system letter for letter, which misses parent companies, former names, nicknames and misspellings, and intake is a form that is not connected to the search.</p>
+          <h3>How the matching works</h3>
+          <ul>
+            <li>Names are normalized, so "A.B.C. Holdings" finds "ABC Holdings".</li>
+            <li>Three scorers combine: a phonetic key (Smith and Smyth), Jaro-Winkler for typos and trigram overlap for spacing, with rare words weighted more.</li>
+            <li>People match on surname, then first name with nickname pairs (Kate and Katherine), aliases and former names.</li>
+            <li>Strong matches expand through corporate families and personal links such as officers and spouses.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Built around the rules</h3>
+          <ul>
+            <li><b>Risk follows the relationship.</b> Adverse to a current client on an open matter is high risk; a closed matter is medium.</li>
+            <li><b>Rules are built in.</b> Former clients point to Rule 1.9, prospective clients to 1.18, lawyer relationships to California Rule 1.7(b) and (c), and lateral hires get the 1.10 to 1.12 analysis.</li>
+            <li><b>Confidential matters stay confidential.</b> A search reports that a confidential match exists and nothing more.</li>
+            <li><b>Least privilege.</b> Walls are enforced in what the server sends each user, and blocked attempts are logged.</li>
+            <li><b>An audit trail that proves itself.</b> Append-only and hash-chained, with a "Chain intact" check.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>A model that stays on the firm's hardware</h3>
+          <p>The AI runs through Ollama or any OpenAI-compatible local server, so client names never leave the building. It pre-sorts hits with a short reason, finds parties in a matter description or pasted email (any name not in the text is discarded), and drafts a conflicts memo from recorded decisions only. Every AI-filled field is marked until a person confirms it, and restricted or walled data never reaches the model.</p>
+        </div>
+        <div>
+          <h3>Built for scale and for IT review</h3>
+          <p>Name search at 250,000 parties went from 535 ms to 5.3 ms, and submitting an intake from 8.0 s to 20 ms, measured by a benchmark script on synthetic firms. It runs as a browser-only demo or as a firm server with its own database, single sign-on and email, with role-based walkthroughs, a striped test environment and a support bundle that replaces names with placeholders.</p>
+        </div>
+      </div>
+
+      <div class="actions">
+        <a class="btn primary" href="demos/conflion.html">Open the live demo</a>
+        <a class="btn" href="demos/conflion-workflow-guide.html">One matter, step by step</a>
+        <a class="btn" href="demos/conflion-it-features.html">Features list for IT</a>
+      </div>
+      <h3 style="margin:28px 0 6px;font-size:19px">Training and onboarding</h3>
+      <p style="font-size:15px;margin:0">Animated tours narrated by Newton, the app's optional help guide, that could serve as onboarding for new conflicts staff and requesting attorneys. Each can be played straight through or opened by section, in light or dark mode.</p>
+      <div class="actions">
+        <a class="btn" href="demos/conflion-matter-walkthrough.html">One matter, start to finish</a>
+        <a class="btn" href="demos/conflion-full-process.html">The full process, first call to final bill</a>
+        <a class="btn" href="demos/conflion-information-sheet.html">Conflion on one page</a>
+      </div>
+      <p class="built"><b>Built with</b> Claude Code (Anthropic), from my brief on how conflicts departments actually run and which rules apply. <b>Runs on</b> a model on the firm's own hardware (default Qwen 2.5 14B Instruct through Ollama), plus a separate local statistical model for hit ranking. Status: a working prototype on fictional data.</p>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="work">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">All work</p>
+      <h2>Tools for each part of the firm</h2>
+      <p>Most demos open on a saved run of an invented matter, so they work without an account. Live analysis runs inside the user's own Claude account.</p>
+    </div>
+
+    <div class="group">
+      <h3>Conflicts and intake</h3>
+
+      <article class="card" id="partyfinder">
+        <div>
+          <p class="kind">Conflicts</p>
+          <h4>Party Finder</h4>
+          <p class="what">Reads the complaint, deal documents or engagement request and builds the complete list of names to search, each tied to the sentence it came from. The list feeds the firm's conflicts system, which stays the system of record.</p>
+          <ul>
+            <li>Finds what an intake form misses: former names, parents, affiliates, insurers, counsel and officers.</li>
+            <li>Explains who is really adverse and why each name matters.</li>
+            <li>A name with no verified quote does not make the list, and an analyst decides every matter.</li>
+          </ul>
+          <p class="result">On a litigation matter it found 28 parties against 3 on the intake form, and on an M&amp;A deal 33 against 3. All 61 supporting quotes were found word for word.</p>
+          <div class="actions"><a class="btn primary" href="demos/party-finder.html">Open the demo</a></div>
+          <p class="built"><b>Built with</b> Claude Code. <b>Runs on</b> Claude, with source quotes verified in the page.</p>
+        </div>
+        <div class="shots">
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/pf-1.jpg" alt="Party Finder overview for a litigation matter" loading="lazy"></button><figcaption>The requesting attorney listed 3 names; Party Finder found 28.</figcaption></figure>
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/pf-2.jpg" alt="Party Finder export with one row per search name" loading="lazy"></button><figcaption>The export: one row per search name, ready to load into the conflicts system.</figcaption></figure>
+        </div>
+      </article>
+
+      <article class="card" id="vigilmark">
+        <div>
+          <p class="kind">Trademark watch · companion to Conflion</p>
+          <h4>VigilMark</h4>
+          <p class="what">A trademark watch and triage desk. It ranks new filings that look like a client's mark, checks whether the applicant is related to a firm client, and hands the hit to Conflion as an intake before the 30-day opposition window closes.</p>
+          <ul>
+            <li>Triage feed ranked by similarity score and days left in the opposition window.</li>
+            <li>Conflict check first: the applicant and its parent are checked against firm clients before anything is recommended.</li>
+            <li>Explainable scoring for sight, sound and goods and services, each with a written rationale.</li>
+            <li>A versioned intake schema and signed webhook connect it to Conflion without sharing a database.</li>
+          </ul>
+          <p class="built"><b>Built with</b> Google Gemini. <b>Runs on</b> plain, explainable rules with no AI model. Screenshots only.</p>
+        </div>
+        <div class="shots">
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/vigilmark-triage.jpg" alt="VigilMark triage feed" loading="lazy"></button><figcaption>Each filing is scored against the client's mark and carries a conflict check on the applicant.</figcaption></figure>
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/vigilmark-dupont-lab.jpg" alt="VigilMark clearance lab" loading="lazy"></button><figcaption>The clearance lab. A parent-company match raises a conflict hit before anyone opposes a client.</figcaption></figure>
+        </div>
+      </article>
+    </div>
+
+    <div class="group">
+      <h3>Litigation</h3>
+
+      <article class="card" id="winyourcase">
+        <div>
+          <p class="kind">Early case assessment</p>
+          <h4>Win your case ASAP</h4>
+          <p class="what">A litigator's first read of a new complaint, done in minutes. It ranks every theory that could end the case by how early it can be filed, puts each on the response clock, and quotes the complaint for every point.</p>
+          <ul>
+            <li>Each theory comes with its motion, filing date, authority, what the client must supply and the other side's best answer.</li>
+            <li>A response clock built from the forum's own rules, such as the 60-day anti-SLAPP window, exportable to Outlook.</li>
+            <li>Each theory lists the facts a lawyer must confirm before relying on it.</li>
+          </ul>
+          <p class="result">Run blind on 26 California federal cases decided after the model's training cutoff, the ground that actually won was in its top three in 14 cases, and 357 of 358 quotations were found word for word in the complaint.</p>
+          <div class="actions"><a class="btn primary" href="demos/win-your-case.html">Open the demo</a></div>
+          <p class="built"><b>Built with</b> Claude Code. <b>Runs on</b> Claude in the user's own account, with a choice of model. Deadlines and quote checks are plain code.</p>
+        </div>
+        <div class="shots">
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/wyc-home.jpg" alt="Win your case ASAP first screen with a response clock" loading="lazy"></button><figcaption>The bottom line, days until the first response, and each theory pinned to the first date it can be filed.</figcaption></figure>
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/wyc-cornet-score.jpg" alt="A real case scored against the court's actual outcome" loading="lazy"></button><figcaption>A public case scored against the real outcome. The complaint never mentions arbitration; the tool ranked compelling it first.</figcaption></figure>
+        </div>
+      </article>
+
+      <article class="card" id="testimonycheck">
+        <div>
+          <p class="kind">Deposition preparation</p>
+          <h4>Testimony Check</h4>
+          <p class="what">Reads the documents in a case and a witness's sworn statements, finds every place the story conflicts with the record, and writes a deposition outline that walks the witness to the admission.</p>
+          <ul>
+            <li>Ranks contradictions as case-ending, major or useful, and flags statements made under oath.</li>
+            <li>Shows both sides with exact quotes, each checked word for word by code.</li>
+            <li>Predicts the explanation the witness will offer and how to close it, as commit, confront and close questions.</li>
+          </ul>
+          <p class="result">On a 13-document case file it found 9 contradictions in about four minutes, 3 of them case-ending, with all 32 quotes verified.</p>
+          <div class="actions"><a class="btn primary" href="demos/witness-breaker.html">Open the demo</a></div>
+          <p class="built"><b>Built with</b> Claude Code. <b>Runs on</b> Claude in the user's own account. Quote checks are plain code.</p>
+        </div>
+        <div class="shots">
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/wb-1.jpg" alt="Testimony Check headline contradiction" loading="lazy"></button><figcaption>A decision-maker swore he learned of a complaint after the firing; his own message from the day before shows he knew.</figcaption></figure>
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/wb-2.jpg" alt="One contradiction with sworn line and record side by side" loading="lazy"></button><figcaption>The sworn line beside the record, and the question sequence that closes the issue.</figcaption></figure>
+        </div>
+      </article>
+
+      <article class="card" id="citationgate">
+        <div>
+          <p class="kind">Brief checking</p>
+          <h4>Citation Gate</h4>
+          <p class="what">A first-pass screen before the citator check. Every case cited is looked up in a database of real opinions, every quotation is matched against the court's text, and the opinion is read to judge whether it supports the point.</p>
+          <ul>
+            <li>An index of about 256,000 California and federal opinions built from CourtListener's public data.</li>
+            <li>Existence and quotation checks are plain code; the model only judges support, and anything uncertain goes to a lawyer.</li>
+            <li>Ends in a sign-off table stating that every authority was also checked on KeyCite or Shepard's.</li>
+          </ul>
+          <p class="result">On a seven-case test brief with planted problems, it caught all four: two made-up or mismatched cases, one misquotation and one unsupported proposition.</p>
+          <p class="built"><b>Built with</b> Claude Code. <b>Runs on</b> Claude, with case lookup and quotation matching in plain code against a local opinion index. Screenshots only.</p>
+        </div>
+        <div class="shots">
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/cg-1.jpg" alt="Citation Gate citation table for a seven-case brief" loading="lazy"></button><figcaption>The citation table for a seven-case brief.</figcaption></figure>
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/cg-2.jpg" alt="Evidence for one citation showing quotation differences" loading="lazy"></button><figcaption>The brief's quotation against the court's words, with each difference marked.</figcaption></figure>
+        </div>
+      </article>
+    </div>
+
+    <div class="group">
+      <h3>Transactions and practice groups</h3>
+
+      <article class="card" id="matterdesk">
+        <div>
+          <p class="kind">Practice workflows</p>
+          <h4>Matter Desk</h4>
+          <p class="what">One desk for the first read of a new matter in five practice areas: M&amp;A diligence, an insurance tender, a PAGA notice, a lease abstract and a health care business associate agreement. It says what a rushed review would miss, dates every deadline and drafts the first letter.</p>
+          <ul>
+            <li>Each workflow is driven by a written practice checklist.</li>
+            <li>Critical dates show the clause and the arithmetic behind each one.</li>
+            <li>Produces the working document for the practice: a consents tracker, coverage chart, PAGA issue table, lease abstract or clause-by-clause BAA comparison.</li>
+          </ul>
+          <p class="result">Across the five demo matters, all 66 quotes were found in the source documents. In the deal workflow it catches a change-of-control consent the seller's schedules list as not needed.</p>
+          <div class="actions"><a class="btn primary" href="demos/matter-desk.html">Open the demo</a></div>
+          <p class="built"><b>Built with</b> Claude. <b>Runs on</b> Claude in the user's own account, with source quotes verified in the page.</p>
+        </div>
+        <div class="shots">
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/md-1.jpg" alt="Matter Desk deal diligence workflow" loading="lazy"></button><figcaption>Deal diligence on a stock purchase: the bottom line first, then what a rushed review would miss.</figcaption></figure>
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/md-2.jpg" alt="Matter Desk lease critical dates" loading="lazy"></button><figcaption>Lease critical dates, each with the section, the arithmetic and the quote it rests on.</figcaption></figure>
+        </div>
+      </article>
+
+      <article class="card" id="synthesis">
+        <div>
+          <p class="kind">M&amp;A workbench</p>
+          <h4>Synthesis</h4>
+          <p class="what">A workbench for the buy side of one deal. It checks the disclosure schedules against the reps and the contracts, explains every change in the seller's markup with a proposed middle position, and builds the closing checklist from the agreement.</p>
+          <ul>
+            <li>The redline, cross-references, defined terms and date arithmetic are computed in code, not by the model.</li>
+            <li>Every quote is checked against the deal documents.</li>
+            <li>A deal room view gives the deal partner the decisions and dates in one place.</li>
+          </ul>
+          <p class="result">On the demo deal it finds 7 reps the schedules do not match, 7 major issues in the markup and 11 of 20 closing items at risk, and the code finds 4 drafting errors.</p>
+          <div class="actions"><a class="btn primary" href="demos/synthesis.html">Open the demo</a></div>
+          <p class="built"><b>Built with</b> Claude. <b>Runs on</b> Claude in the user's own account.</p>
+        </div>
+        <div class="shots">
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/syn-1.jpg" alt="Synthesis deal room" loading="lazy"></button><figcaption>The deal room for a $46.5 million stock purchase.</figcaption></figure>
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/syn-2.jpg" alt="Synthesis markup turns" loading="lazy"></button><figcaption>Code computes the redline; Claude explains each change and proposes language in between.</figcaption></figure>
+        </div>
+      </article>
+
+      <article class="card" id="skippy">
+        <div>
+          <p class="kind">Native Mac app · Legal assistant</p>
+          <h4>Skippy</h4>
+          <p class="what">A legal assistant that keeps each matter's documents together and answers questions with citations to the page and paragraph. It runs review tables, redlines drafts, checks citations and counts deadlines, and nothing reaches the cloud until the lawyer approves it.</p>
+          <ul>
+            <li>Reads PDFs (with OCR), Word, Excel, PowerPoint and email on the Mac.</li>
+            <li>Every quote is located in its own copy of the document and marked verified or not.</li>
+            <li>An approval sheet shows which documents go where, to which model and at what cost; an optional shield masks names first.</li>
+            <li>Public research through CourtListener, the Federal Register, eCFR and SEC EDGAR.</li>
+          </ul>
+          <div class="actions"><a class="btn primary" href="demos/skippy-tour.html">Take the guided tour</a></div>
+          <p class="built"><b>Built with</b> Claude Code, as a native SwiftUI app. <b>Runs on</b> Claude through the API with citations, after the approval sheet. Search, deadlines, redlines and quote checks work offline in plain code.</p>
+        </div>
+        <div class="shots">
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/skippy-cited.jpg" alt="Skippy cited answer" loading="lazy"></button><figcaption>A cited answer; each citation opens the clause it rests on.</figcaption></figure>
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/skippy-approval.jpg" alt="Skippy approval sheet" loading="lazy"></button><figcaption>Nothing is sent without this sheet, and both sides go in a hash-chained audit log.</figcaption></figure>
+        </div>
+      </article>
+    </div>
+
+    <div class="group">
+      <h3>Billing and time</h3>
+
+      <article class="card" id="guidelineguard">
+        <div>
+          <p class="kind">Billing compliance</p>
+          <h4>Guideline Guard</h4>
+          <p class="what">Enforces each client's outside counsel guidelines on the prebill, before the invoice leaves the firm. It reads the guidelines, audits each entry, quotes the rule it applies and proposes the fix.</p>
+          <ul>
+            <li>Builds a rulebook from the guidelines, each rule tied to the exact sentence it comes from.</li>
+            <li>Marks each entry payable, rewrite, reduce, not payable or confirm.</li>
+            <li>Proposes compliant narratives and writes a note to the billing partner, with a CSV export.</li>
+          </ul>
+          <p class="result">On a 32-entry prebill it found $19.3k of $26k in fees at risk as submitted, and $7.8k of that recoverable by rewriting entries or attaching approvals.</p>
+          <div class="actions"><a class="btn primary" href="demos/guideline-guard.html">Open the demo</a></div>
+          <p class="built"><b>Built with</b> Claude Code. <b>Runs on</b> Claude in the user's own account, with rule quotes verified in the page.</p>
+        </div>
+        <div class="shots">
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/gg-1.jpg" alt="Guideline Guard audit summary" loading="lazy"></button><figcaption>The audit, with the amount at risk and why.</figcaption></figure>
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/gg-2.jpg" alt="Guideline Guard finding with quoted rule" loading="lazy"></button><figcaption>Each finding quotes the guideline and proposes a rewritten narrative.</figcaption></figure>
+        </div>
+      </article>
+
+      <article class="card" id="hourcatch">
+        <div>
+          <p class="kind">Time capture</p>
+          <h4>Hour Catch</h4>
+          <p class="what">Reads a lawyer's day across Outlook, Teams, document history and the phone log, drafts the time entries that would otherwise be missed, and runs each through Guideline Guard before it reaches billing.</p>
+          <ul>
+            <li>Drafts entries in 0.1-hour increments with narratives written to the client's rules.</li>
+            <li>Nothing is saved to billing until the lawyer approves each entry.</li>
+            <li>No entry bills more than its logged minutes, and every activity is counted once.</li>
+          </ul>
+          <p class="result">On one demo day it found 7.3 hours against the 4.1 a lawyer reconstructed from memory, across 15 draft entries.</p>
+          <div class="actions"><a class="btn primary" href="demos/hour-catch.html">Open the demo</a></div>
+          <p class="built"><b>Built with</b> Claude Code. <b>Runs on</b> Claude in the user's own account.</p>
+        </div>
+        <div class="shots">
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/hc-1.jpg" alt="Hour Catch day view" loading="lazy"></button><figcaption>The day, with drafted entries waiting for approval.</figcaption></figure>
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/hc-2.jpg" alt="Hour Catch remembered versus found by matter" loading="lazy"></button><figcaption>Remembered against found, matter by matter.</figcaption></figure>
+        </div>
+      </article>
+    </div>
+
+    <div class="group">
+      <h3>Firm strategy and knowledge</h3>
+
+      <article class="card" id="praxis">
+        <div>
+          <p class="kind">Native Mac app · AI strategy</p>
+          <h4>Praxis</h4>
+          <p class="what">A strategy studio for the people deciding where a firm should use AI. It maps every idea by where the demand came from and how much it changes the work, scores it with honest ranges, and carries the winners through pilots.</p>
+          <ul>
+            <li>A briefing that opens with a sentence a managing partner can repeat, with every number counted from the records.</li>
+            <li>Seven-criterion scoring with confidence ranges; a missing score is never treated as favorable.</li>
+            <li>The same portfolio ranked under different strategies, with the assumptions stated.</li>
+            <li>A pilot board, stakeholder map and strategy briefs that export to PDF.</li>
+          </ul>
+          <div class="actions"><a class="btn primary" href="demos/praxis-tour.html">Take the guided tour</a></div>
+          <p class="built"><b>Built with</b> Claude Code, as a native SwiftUI app. <b>Runs on</b> plain rules by default, with optional help from a local model or Claude that shows the exact text before anything is sent.</p>
+        </div>
+        <div class="shots">
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/praxis-overview.jpg" alt="Praxis portfolio overview" loading="lazy"></button><figcaption>The overview reads like a briefing memo.</figcaption></figure>
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/praxis-prioritization.jpg" alt="Praxis scenario rankings" loading="lazy"></button><figcaption>The same portfolio ranked three ways, showing what changes when strategy changes.</figcaption></figure>
+        </div>
+      </article>
+
+      <article class="card" id="lexatlas">
+        <div>
+          <p class="kind">Native Mac app · Legal intelligence</p>
+          <h4>LexAtlas</h4>
+          <p class="what">A relationship graph for conflicts, diligence and investigations. It shows how companies, funds, people, matters and sources connect, ties every connection to evidence, and enforces ethical walls in the data itself.</p>
+          <ul>
+            <li>A path finder that answers "how are these two connected" within the records the user is cleared to see.</li>
+            <li>Evidence on every connection, with disputed, stale or inferred links drawn differently.</li>
+            <li>The graph as of any date, and entity merges that a person decides.</li>
+          </ul>
+          <div class="actions"><a class="btn primary" href="demos/lexatlas-tour.html">Take the guided tour</a></div>
+          <p class="built"><b>Built with</b> Claude Code, from my specification package. <b>Runs on</b> plain code by default, with an optional local or Claude assistant whose queries are checked against the user's access.</p>
+        </div>
+        <div class="shots">
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/lexatlas-disputed.jpg" alt="LexAtlas disputed relationship" loading="lazy"></button><figcaption>A vendor feed and the registry disagree, so the link is drawn as disputed and the inspector says why.</figcaption></figure>
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/lexatlas-path.jpg" alt="LexAtlas path finder" loading="lazy"></button><figcaption>Paths are searched only within records the user may see.</figcaption></figure>
+        </div>
+      </article>
+
+      <article class="card" id="casewins">
+        <div>
+          <p class="kind">Knowledge management</p>
+          <h4>Case Wins Debrief</h4>
+          <p class="what">Turns a firm's case wins into reusable know-how. It times each win, groups the lessons into patterns, and pairs each pattern with a working tool the next team can run.</p>
+          <ul>
+            <li>Asks the trial team a question for every win, rather than passing judgment.</li>
+            <li>Four tools with saved runs: an early-issue test, a notice-clause monitor, a fee-motion builder and a win-to-client-alert writer.</li>
+            <li>Arithmetic, such as the fee lodestar, stays in code.</li>
+          </ul>
+          <div class="actions"><a class="btn primary" href="demos/case-wins-debrief.html">Open the demo</a></div>
+          <p class="built"><b>Built with</b> Claude. <b>Runs on</b> Claude in the user's own account. The demo firm and its wins are fictional.</p>
+        </div>
+        <div class="shots">
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/cwd-1.jpg" alt="Case Wins Debrief timeline of wins" loading="lazy"></button><figcaption>How long each win took, from the first dated event to the result.</figcaption></figure>
+          <figure><button class="zoom" type="button" aria-label="Enlarge screenshot"><img src="assets/cwd-2.jpg" alt="Day-One Test tool" loading="lazy"></button><figcaption>One of the four tools: issues that could end a case early, and the earliest motion for each.</figcaption></figure>
+        </div>
+      </article>
+
+      <article class="card" id="marketingstudio">
+        <div>
+          <p class="kind">Firm marketing</p>
+          <h4>Marketing Studio</h4>
+          <p class="what">Drafts attorney bios, client alerts, RFP responses and award submissions in the firm's voice, then a second pass checks each draft against the source and California's attorney advertising rules before anyone publishes it.</p>
+          <ul>
+            <li>Only facts from the source; anything missing becomes a marked placeholder, never an invented client or result.</li>
+            <li>No superlatives, and clients named only with recorded consent.</li>
+            <li>Every draft goes to the responsible attorney for approval.</li>
+          </ul>
+          <div class="actions"><a class="btn primary" href="https://claude.ai/artifact/8zgrVJrAcrKnoN9fHWH3m9">Open in Claude</a></div>
+          <p class="built"><b>Built with</b> Claude. <b>Runs on</b> Claude in the user's own account: one pass drafts, a second reviews.</p>
+        </div>
+        <div class="shots">
+          <div class="callout"><p><b>Four example runs</b> open first: a bio, a client alert, an RFP response and an award submission. Across the four, the review pass raised 18 items: 3 to fix before publishing, 8 for the attorney to verify and 7 passed checks.</p></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="approach">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">How I work</p>
+      <h2>From how the work is done to a tested tool</h2>
+    </div>
+    <div class="approach">
+      <div><h3>Start with the work</h3><p>Each tool starts from a written account of how the task is really done in a firm, who touches it and which rules apply, before any screen is built.</p></div>
+      <div><h3>Test against reality</h3><p>Tools are scored against real outcomes where they exist, such as public court rulings, and every claim on this page comes from a recorded run.</p></div>
+      <div><h3>Ship the whole package</h3><p>Tests, walkthroughs, an IT features list and plain-language documentation ship with the software, so it can be reviewed, piloted and supported.</p></div>
+    </div>
+    <p style="margin-top:28px;font-size:15px;color:var(--muted)">I use several AI tools and pick the one that fits each job: Claude and Claude Code (Anthropic) for most of this work, Google Gemini for VigilMark, and open models such as Qwen running on local hardware where client data must stay inside the firm. Each project names the tools it used.</p>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <div class="cta">
+      <div>
+        <h2>AI Gameplan for a mid-sized California firm</h2>
+        <p>A phased plan for firm-wide AI adoption: policy, training, confidentiality and ethics, vendor vetting, and the practice-specific tools to build or adopt.</p>
+      </div>
+      <a class="btn" href="ai-gameplan/">Read the gameplan</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>Myles Parslow · Legal technology portfolio · 2026</p>
+    <p>Every client, matter, person and firm in these demos and screenshots is fictional, except public court cases used to test Win your case ASAP. Nothing here is legal advice. Demos open on saved runs; live analysis uses the viewer's own Claude account.</p>
+  </div>
+</footer>
+
+<script src="legal.js"></script>
+</body>
+</html>
