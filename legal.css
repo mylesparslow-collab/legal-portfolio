@@ -218,3 +218,9 @@ footer.foot p { margin: 0 0 6px; }
 .toc-side { font-size: 14px; columns: 2; column-gap: 32px; padding-left: 18px; }
 @media (max-width: 600px) { .toc-side { columns: 1; } }
 sup a { text-decoration: none; font-size: 11px; }
+.keys { list-style: none; counter-reset: k; padding: 0; margin: 18px 0; border-top: 2px solid var(--accent-bright); }
+.keys li { counter-increment: k; position: relative; padding: 14px 0 14px 44px; border-bottom: 1px solid var(--rule); margin: 0; font-size: 17px; }
+.keys li::before { content: counter(k); position: absolute; left: 0; top: 10px; font: 400 28px/1 var(--serif); color: var(--accent-bright); }
+.keys b { color: var(--ink); }
+.doc .fine { font-size: 13.5px; color: var(--muted); }
+.doc .key { font-size: 18px; color: var(--ink); }
