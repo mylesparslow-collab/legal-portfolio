@@ -178,8 +178,9 @@ footer.foot p { margin: 0 0 6px; }
 
 /* Lightbox */
 .lightbox { position: fixed; inset: 0; background: rgba(10, 14, 20, .88); display: none; align-items: center; justify-content: center; padding: 24px; z-index: 50; cursor: zoom-out; }
-.lightbox.open { display: flex; }
-.lightbox img { max-height: 92vh; max-width: 96vw; width: auto; border-radius: 4px; box-shadow: 0 20px 60px rgba(0, 0, 0, .5); }
+.lightbox.open { display: flex; flex-direction: column; gap: 14px; }
+.lightbox p { margin: 0; max-width: 80ch; color: #e8eef3; font-size: 16px; line-height: 1.5; text-align: center; }
+.lightbox img { max-height: 80vh; max-width: 96vw; width: auto; border-radius: 4px; box-shadow: 0 20px 60px rgba(0, 0, 0, .5); }
 
 /* Gameplan page */
 .doc h2 { font-size: clamp(24px, 3vw, 30px); margin: 0 0 14px; }

@@ -1,4 +1,4 @@
-/* Click a screenshot to see it full size; Escape or a click closes it. */
+/* Click a screenshot to see it full size, with its caption below; Escape or a click closes it. */
 (function () {
   var box = document.createElement('div');
   box.className = 'lightbox';
@@ -6,7 +6,9 @@
   box.setAttribute('aria-modal', 'true');
   box.setAttribute('aria-label', 'Screenshot, full size');
   var img = document.createElement('img');
+  var cap = document.createElement('p');
   box.appendChild(img);
+  box.appendChild(cap);
   document.body.appendChild(box);
   var last = null;
   function close() { box.classList.remove('open'); img.removeAttribute('src'); if (last) last.focus(); }
@@ -17,6 +19,10 @@
       last = b;
       img.src = src.currentSrc || src.src;
       img.alt = src.alt;
+      var fig = b.closest('figure');
+      var fc = fig && fig.querySelector('figcaption');
+      cap.textContent = fc ? fc.textContent : '';
+      cap.hidden = !fc;
       box.classList.add('open');
       return;
     }
